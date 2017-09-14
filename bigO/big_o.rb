@@ -31,7 +31,6 @@ def l_sub_num(list)
       i+=1
     end
   end
-  debugger
 
   largest_sum = 0
   arr.each do |sub_arr|
@@ -57,9 +56,9 @@ def l_sub_num2(list)
   largest_sum
 end
 
-
-if __FILE__ == $PROGRAM_NAME
-  list = [5, 3, -7]
-  p l_sub_num(list)
-  p l_sub_num2(list)
-end
+#
+# if __FILE__ == $PROGRAM_NAME
+#   list = [5, 3, -7]
+#   p l_sub_num(list)
+#   p l_sub_num2(list)
+# end
